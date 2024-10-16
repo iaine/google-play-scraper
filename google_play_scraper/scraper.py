@@ -77,6 +77,7 @@ class PlayStoreScraper:
 
 		if first_result:
 			apps.append(first_result.split(WebsiteMappings.app_detail_link_subdomain)[1])
+			print(apps)
 			# Collect blocks of apps from promenent result page
 			try:
 				try:
