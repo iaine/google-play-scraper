@@ -66,7 +66,9 @@ class WebsiteMappings:
         Recursive function to use list of indexes to get nested item
         """
         index = list_of_indexes[0]
+        print(index)
         if len(list_of_indexes) > 1:
+            pritn(item_holder[index])
             return WebsiteMappings.get_nested_item(item_holder[index], list_of_indexes[1:])
         else:
             return item_holder[index]
