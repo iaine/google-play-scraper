@@ -60,7 +60,7 @@ class WebsiteMappings:
     # Can be used to identify links to app pages
     app_detail_link_subdomain = '/store/apps/details?id='
 
-    @staticmethod
+    #@staticmethod
     def get_nested_item(item_holder, list_of_indexes):
         """
         Recursive function to use list of indexes to get nested item
